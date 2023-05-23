@@ -114,7 +114,7 @@ RUN composer require fof/upload \
   flarum-lang/chinese-simplified \
   fof/follow-tags \
   league/flysystem-aws-s3-v3 -W \
-  composer require clarkwinkelmann/flarum-ext-scout
+  clarkwinkelmann/flarum-ext-scout
 
 COPY rootfs /
 RUN chmod +x /usr/local/bin/* /etc/s6.d/*/run /etc/s6.d/.s6-svscan/*
