@@ -1,5 +1,16 @@
 # yezi/flarum
 
+[中文文档](./docs/zh-cn.md)
+
+This repo is forked from [mondediefr/docker-flarum](https://github.com/mondediefr/docker-flarum).
+
+Add the folloing changes:
+
+- Update flarum version to 1.8.0.
+- Add some default useful extentions.
+- Optimize the volumes settings to keep data secure and simple.
+
+
 ![logo](https://i.imgur.com/Bjrtbsc.png)
 
 ### Features
