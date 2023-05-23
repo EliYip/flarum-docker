@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.16.0
 
 LABEL description="Simple forum software for building great communities" \
   maintainer="Eli Yip <yezi.2022@outlook.com>"
@@ -14,7 +14,7 @@ ENV GID=991 \
   DB_USER=flarum \
   DB_NAME=flarum \
   DB_PORT=3306 \
-  FLARUM_TITLE=Docker-Flarum \
+  FLARUM_TITLE=Docker-Flarum-Example \
   DEBUG=false \
   LOG_TO_STDOUT=false \
   GITHUB_TOKEN_AUTH=false \
